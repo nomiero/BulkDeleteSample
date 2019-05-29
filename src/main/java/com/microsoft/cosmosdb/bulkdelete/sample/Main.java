@@ -4,16 +4,15 @@ package com.microsoft.cosmosdb.bulkdelete.sample;
 import com.microsoft.azure.documentdb.*;
 import com.microsoft.azure.documentdb.bulkexecutor.BulkDeleteResponse;
 import com.microsoft.azure.documentdb.bulkexecutor.DocumentBulkExecutor;
-import java.util.concurrent.ExecutionException;
 
 public class Main {
-    private static String HOST = "https://<endpoint>.documents.azure.com:443/";
-    private static String KEY  = "<key>";
-    private static String DATABASE_ID = "<DB_ID>";
-    private static String COLLECTION_ID = "<COLLECTION_ID>";
-    private static String QUERY = "<QUERY>";
-    private static int throughputToUse = 50000;
-    public static void main( String[] args ) throws ExecutionException, InterruptedException, DocumentClientException {
+    private static String HOST = "https://<ENDPOINT>.documents.azure.com:443/";
+    private static String KEY  = "<KEY>";
+    private static String DATABASE_ID = "<DB NAME>";
+    private static String COLLECTION_ID = "<COLLECTION NAME>";
+    private static String QUERY = "select * from c where c.prop=\"value\""
+    private static int throughputToUse = 50000; // Throughput to use for delete
+    public static void main( String[] args ) throws DocumentClientException {
         new Main().run();
     }
 
