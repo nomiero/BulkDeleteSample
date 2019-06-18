@@ -2,7 +2,7 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.microsoft.azure</groupId>
   <artifactId>documentdb-bulkexecutor</artifactId>
-  <version>2.5.0</version>
+  <version>2.5.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
       <localCopy>true</localCopy>
@@ -12,23 +12,23 @@
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.5.0</value>
+        <value>2.5.1-SNAPSHOT</value>
         <updated>20190527030133</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.5.0</value>
+        <value>2.5.1-SNAPSHOT</value>
         <updated>20190527030133</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.5.0</value>
+        <value>2.5.1-SNAPSHOT</value>
         <updated>20190527030133</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.5.0</value>
+        <value>2.5.1-SNAPSHOT</value>
         <updated>20190527030133</updated>
       </snapshotVersion>
     </snapshotVersions>

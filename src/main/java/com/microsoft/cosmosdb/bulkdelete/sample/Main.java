@@ -10,7 +10,7 @@ public class Main {
     private static String KEY  = "<KEY>";
     private static String DATABASE_ID = "<DB NAME>";
     private static String COLLECTION_ID = "<COLLECTION NAME>";
-    private static String QUERY = "select * from c where c.prop=\"value\""
+    private static String QUERY = "select * from c where c.prop=\"value\"";
     private static int throughputToUse = 50000; // Throughput to use for delete
     public static void main( String[] args ) throws DocumentClientException {
         new Main().run();
